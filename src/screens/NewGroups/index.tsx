@@ -18,7 +18,11 @@ export function NewGroups(){
 
                 />
                  
-                <Input />
+                <Input
+                    placeholder="Nome da Turma"
+                />
+
+
                 <Button 
                     title="Criar"
                     style={{marginTop: 10}}

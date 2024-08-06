@@ -11,6 +11,6 @@ export const Container = styled(TextInput)`
     font-family: ${({theme}) => theme.FONT_FAMILY.REGULAR};
     font-size: ${({theme}) => theme.FONT_SIZE.MD}px;
 
-    border: 1px;
+ 
     padding: 16px;
 `;

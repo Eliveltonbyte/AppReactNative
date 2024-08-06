@@ -6,6 +6,7 @@ import { ThemeProvider } from 'styled-components';
 import { Loading } from '@components/Loading';
 
 import theme from './src/theme';
+import { Players } from '@screens/Players';
 
 import { NewGroups } from '@screens/NewGroups';
 
@@ -22,7 +23,7 @@ export default function App() {
       translucent
       
       />
-    { fontsLoaded ? <NewGroups/> : <Loading />}
+    { fontsLoaded ? <Players/> : <Loading />}
     </ThemeProvider>
   );
 }
