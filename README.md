@@ -1,2 +1,1 @@
-# AppReactNative
-Meu primeiro projeto em React Native
+Primeiro Projeto Feito em React Native
